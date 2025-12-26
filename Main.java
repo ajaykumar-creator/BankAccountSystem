@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        BaseContractInterface user1 = new User();
-        BaseContractInterface user2 = new User();
+       User user1 = new User();
+        User user2 = new User();
 
         SavingsAccountInterface savingsAccount = new SavingsAccount();
         CurrentAccountInterface currentAccount = new CurrentAccount();
@@ -48,3 +48,4 @@ public class Main {
         }
     }
 }
+
