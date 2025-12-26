@@ -10,13 +10,12 @@ public class Main {
         SavingsAccountInterface savingsAccount = new SavingsAccount();
         CurrentAccountInterface currentAccount = new CurrentAccount();
 
-        // USER 1 - SAVINGS
+     
         user1.setName("USER 1");
         user1.setAccountType("SAVINGS");
         user1.setBalance(0);
         user1.setDepositAmount(10000);
 
-        // USER 2 - CURRENT
         user2.setName("USER 2");
         user2.setAccountType("CURRENT");
         user2.setBalance(0);
@@ -48,4 +47,5 @@ public class Main {
         }
     }
 }
+
 
